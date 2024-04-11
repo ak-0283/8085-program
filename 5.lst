@@ -1,0 +1,10 @@
+---------------------------------------------
+OSHONSOFT 8085 ASSEMBLER LISTING
+Line   Addr Opcode      Label   Instruction
+---------------------------------------------
+0001   0000 3E 45       	mvi a,45h
+0002   0002 2F          	cma
+0003   0003 3C          	inr a
+0004   0004 32 40 00    	sta 0040h
+0005   0007 76          	hlt
+Number of errors = 0
